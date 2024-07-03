@@ -1,0 +1,158 @@
+/* styles.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bba7a3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #5d4c52;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.slogan {
+    margin: 0;
+    font-size: 1.2em;
+    color: #bba7a3;
+}
+
+.product-info, .order-form, .contact, .features, .reviews {
+    padding: 40px 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 1000px;
+}
+
+.product-info img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #5d4c52;
+}
+
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #5d4c52;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.order-button:hover {
+    background: #473840;
+}
+
+.features {
+    background: #5d4c52;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.features h2 {
+    color: #fff;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    flex: 1 1 300px;
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    background: #bba7a3;
+    color: #333;
+    border-radius: 8px;
+}
+
+.reviews h2 {
+    color: #5d4c52;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.review {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: left;
+}
+
+.review p {
+    margin: 0;
+    color: #333;
+}
+
+.order-form form, .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-form label, .contact label {
+    margin-top: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+.order-form input, .contact input, .order-form textarea, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.order-form button, .contact button {
+    margin-top: 20px;
+    padding
